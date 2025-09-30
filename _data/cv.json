@@ -4,30 +4,25 @@
     "email": "li_cl@foxmail.com",
     "phone": "+86-17600633417",
     "website": "https://chunleili.github.io/personal-page/",
-    "summary": "PhD candidate focusing on computer graphics simulation and AI4Science, currently visiting University College London.",
+    "summary": "I'm a PhD candidate at the VR Lab of Beihang University from 2021, supervised by Prof. Qinping Zhao. My research focuses on computer graphics simulation. Currently I am a visiting student at University College London, supervised by Prof. He Wang. I am about to graduate in 2026. I am now working on the project of accelearting the solution of PDE with neural operator.",
     "location": {
       "Current Location": "London, UK",
       "Hometown": "Beijing, China"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/"
-      },
-      {
         "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/"
+        "url": "https://orcid.org/0000-0002-9822-9465"
       },
       {
         "network": "GitHub",
-        "username": "chunleili",
         "url": "https://github.com/chunleili"
-      }
+      },
+      {"network":"personal website",
+      "url":"https://chunleili.github.io/personal-page/"}
     ]
   },
-  "work": [
+  "internship": [
     {
       "name": "Zeno Tech",
       "position": "R&D of PBD method",
@@ -44,7 +39,7 @@
     },
     {
       "name": "Alibaba",
-      "position": "GPU R&D",
+      "position": "R&D",
       "startDate": "2025-05",
       "endDate": "2026-05",
       "summary": "R&D of GPU-based self-developed muscle node in Houdini."
@@ -53,12 +48,9 @@
   "education": [
     {
       "institution": "University College London",
-      "area": "Visiting PhD",
-      "studyType": "PhD",
+      "studyType": "Visiting PhD",
       "startDate": "2025-09",
       "endDate": "",
-      "gpa": null,
-      "courses": [],
       "advisor": "Prof. He Wang"
     },
     {
@@ -66,7 +58,7 @@
       "area": "PhD Candidate in Computer Science",
       "studyType": "PhD",
       "startDate": "2021-09",
-      "endDate": "",
+      "endDate": "2026-12(Expected)",
       "gpa": null,
       "courses": [],
       "advisor": "Qinping Zhao",
@@ -85,8 +77,8 @@
     },
     {
       "institution": "University of Michigan, Dearborn",
-      "area": "Exchange Student",
-      "studyType": "",
+      "area": "Energy and Power Engineering",
+      "studyType": "Exchange Student",
       "startDate": "2016-09",
       "endDate": "2017-05",
       "gpa": null,
@@ -117,47 +109,46 @@
       "keywords": ["CET Band 6: 578", "CET Band 4: 560", "TOEFL: 97", "GRE: 323+3.5"]
     }
   ],
-  "languages": [],
   "interests": ["Simulation in Computer Graphics", "Physics-Based Animation"],
-  "references": [],
   "publications": [
     {
       "name": "MGPBD: A Multigrid Accelerated Global XPBD Solver",
       "publisher": "SIGGRAPH",
-      "releaseDate": "2025-01-01",
-      "website": "",
-      "summary": "First author. DOI: 10.1145/3721238.3730720"
+      "releaseDate": "2025-08-14",
+      "website": "10.1145/3721238.3730720",
+      "note": "First author. During PhD."
     },
     {
       "name": "A Unified Particle-Based Solver for non-Newtonian Behaviors Simulation",
       "publisher": "TVCG",
-      "releaseDate": "2023-01-01",
-      "website": "",
-      "summary": "First author. DOI: 10.1109/TVCG.2023.3341453"
+      "releaseDate": "2023-12-01",
+      "website": "10.1109/TVCG.2023.3341453",
+      "note": "First author. During PhD."
     },
     {
       "name": "Comparison between Two Eulerian-Lagrangian Methods: CFD-DEM & MPPIC on the biomass gasification in a fluidized bed",
       "publisher": "Biomass Conversion and Biorefinery",
       "releaseDate": "2021-01-01",
-      "website": "",
-      "summary": "First author. DOI: 10.1007/s13399-021-01384-2"
+      "website": "10.1007/s13399-021-01384-2",
+      "note": "First author. During Master."
     },
     {
       "name": "Comparative Study of Three Modified sCO₂ Brayton Recompression Cycles Based on Energy and Exergy Analysis with GA Optimization",
       "publisher": "International Journal of Exergy",
       "releaseDate": "2020-01-01",
-      "website": "",
-      "summary": "First author. DOI: 10.1504/IJEX.2021.115652"
+      "website": "10.1504/IJEX.2021.115652",
+      "note": "First author. During Master."
     },
     {
       "name": "Multi-objective Optimization of sCO₂, sCO₂/tCO₂ Cycles Based on Energy-Exergy-Economy Balanced Analysis",
       "publisher": "International Journal of Exergy",
       "releaseDate": "2020-01-01",
-      "website": "",
-      "summary": "First author. DOI: 10.1504/IJEX.2022.122308"
+      "website": "10.1504/IJEX.2022.122308",
+      "note": "First author. During Master."
     }
   ],
-  "presentations": [],
-  "teaching": [],
-  "portfolio": []
+  "awards_honors": [
+    {"award_name": "Top 10 Outstanding Graduate Students of Beihang University","year": "2021","note": "nominate"},
+    {"award_name": "Outstanding Graduate of Beihang University","year": "2021","note": ""},
+    {"award_name": "Outstanding Graduate of NCEPU (Beijing)","year": "2018","note": ""}]
 }
