@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-08-14-MGPBD-number-2
 date: 2025-08-14
-venue: 'TVCG'
+venue: 'SIGGRAPH'
 paperurl: 'https://arxiv.org/abs/2505.13390'
 slidesurl: 'https://docs.google.com/presentation/d/1NcZVITDUfJIG9hKNJkx2TqsEaNnO3dNk/edit?usp=share_link&ouid=111038135074814190899&rtpof=true&sd=true'
 code: 'https://github.com/chunleili/mgpbd'
