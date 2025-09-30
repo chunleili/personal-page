@@ -126,6 +126,22 @@
   </div>
   {% endif %}
   
+  {% if cv.awards.size > 0 %}
+  <!-- Awards & Honors -->
+  <div class="cv-section">
+    <h2>Awards & Honors</h2>
+    <ul class="cv-list">
+      {% for award in cv.awards %}
+      <li class="cv-item">
+        <div class="cv-item-content">
+          <div class="cv-item-title">{{ award }}</div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  
   {% if cv.skills.size > 0 %}
   <!-- Skills -->
   <div class="cv-section">
@@ -163,7 +179,7 @@
           {% endif %}
           {% if publication.website %}
           <div class="cv-item-detail">
-            <a href="{{ publication.website }}" target="_blank">View Publication</a>
+            <a href="{{ base_path }}/publications/\" target=\"_blank\">View Publication</a>
           </div>
           {% endif %}
         </div>
