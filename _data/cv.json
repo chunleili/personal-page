@@ -1,152 +1,163 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Chunlei Li",
+    "email": "li_cl@foxmail.com",
+    "phone": "+86-17600633417",
+    "website": "https://chunleili.github.io/personal-page/",
+    "summary": "PhD candidate focusing on computer graphics simulation and AI4Science, currently visiting University College London.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "Current Location": "London, UK",
+      "Hometown": "Beijing, China"
     },
     "profiles": [
       {
         "network": "Google Scholar",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://scholar.google.com/"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "http://orcid.org/"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "chunleili",
+        "url": "https://github.com/chunleili"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "name": "Zeno Tech",
+      "position": "R&D of PBD method",
+      "startDate": "2022-06",
+      "endDate": "2022-12",
+      "summary": "R&D of the PBD method in the DCC software using C++."
+    },
+    {
+      "name": "Taichi Graphics",
+      "position": "R&D of PBD method",
+      "startDate": "2023-02",
+      "endDate": "2023-09",
+      "summary": "Supervised by Dr. Tiantian Liu, development of PBD solver."
+    },
+    {
+      "name": "Alibaba",
+      "position": "GPU R&D",
+      "startDate": "2025-05",
+      "endDate": "2026-05",
+      "summary": "R&D of GPU-based self-developed muscle node in Houdini."
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "University College London",
+      "area": "Visiting PhD",
+      "studyType": "PhD",
+      "startDate": "2025-09",
+      "endDate": "",
+      "gpa": null,
+      "courses": [],
+      "advisor": "Prof. He Wang"
+    },
+    {
+      "institution": "Beihang University (BUAA)",
+      "area": "PhD Candidate in Computer Science",
+      "studyType": "PhD",
+      "startDate": "2021-09",
+      "endDate": "",
+      "gpa": null,
+      "courses": [],
+      "advisor": "Qinping Zhao",
+      "lab": "VR Lab"
+    },
+    {
+      "institution": "Beihang University (BUAA)",
+      "area": "MSc in Power Engineering and Engineering Thermophysics",
+      "studyType": "MSc",
+      "startDate": "2018-09",
+      "endDate": "2021-06",
+      "gpa": "85.61/100",
+      "courses": [],
+      "advisor": "Qitai Eri",
+      "focus": "Biomass Gasification & CFD"
+    },
+    {
+      "institution": "University of Michigan, Dearborn",
+      "area": "Exchange Student",
       "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "startDate": "2016-09",
+      "endDate": "2017-05",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "institution": "North China Electric Power University (Beijing)",
+      "area": "BSc in Energy and Power Engineering",
+      "studyType": "BSc",
+      "startDate": "2014-09",
+      "endDate": "2018-07",
+      "gpa": "3.63/4.0",
+      "ranking": "24/243",
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["C", "C++", "CUDA", "MATLAB", "Fortran", "Python", "Taichi"]
+    },
+    {
+      "name": "Software",
+      "keywords": ["Houdini"]
+    },
+    {
+      "name": "English Proficiency",
+      "keywords": ["CET Band 6: 578", "CET Band 4: 560", "TOEFL: 97", "GRE: 323+3.5"]
+    }
+  ],
   "languages": [],
-  "interests": [],
+  "interests": ["Simulation in Computer Graphics", "Physics-Based Animation"],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "MGPBD: A Multigrid Accelerated Global XPBD Solver",
+      "publisher": "SIGGRAPH",
+      "releaseDate": "2025-01-01",
+      "website": "",
+      "summary": "First author. DOI: 10.1145/3721238.3730720"
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "A Unified Particle-Based Solver for non-Newtonian Behaviors Simulation",
+      "publisher": "TVCG",
+      "releaseDate": "2023-01-01",
+      "website": "",
+      "summary": "First author. DOI: 10.1109/TVCG.2023.3341453"
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Comparison between Two Eulerian-Lagrangian Methods: CFD-DEM & MPPIC on the biomass gasification in a fluidized bed",
+      "publisher": "Biomass Conversion and Biorefinery",
+      "releaseDate": "2021-01-01",
+      "website": "",
+      "summary": "First author. DOI: 10.1007/s13399-021-01384-2"
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Comparative Study of Three Modified sCO₂ Brayton Recompression Cycles Based on Energy and Exergy Analysis with GA Optimization",
+      "publisher": "International Journal of Exergy",
+      "releaseDate": "2020-01-01",
+      "website": "",
+      "summary": "First author. DOI: 10.1504/IJEX.2021.115652"
+    },
+    {
+      "name": "Multi-objective Optimization of sCO₂, sCO₂/tCO₂ Cycles Based on Energy-Exergy-Economy Balanced Analysis",
+      "publisher": "International Journal of Exergy",
+      "releaseDate": "2020-01-01",
+      "website": "",
+      "summary": "First author. DOI: 10.1504/IJEX.2022.122308"
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }
