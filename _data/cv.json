@@ -1,170 +1,170 @@
-{
-  "basics": {
-    "name": "Chunlei Li",
-    "email": "li_cl@foxmail.com",
-    "phone": "+86-17600633417",
-    "website": "https://chunleili.github.io/personal-page/",
-    "summary": "I'm a PhD candidate at the VR Lab of Beihang University from 2021, supervised by Prof. Qinping Zhao. My research focuses on computer graphics simulation. Currently I am a visiting student at University College London, supervised by Prof. He Wang. I am about to graduate in 2026. I am now working on the project of accelearting the solution of PDE with neural operator.",
-    "location": {
-      "Current Location": "London, UK",
-      "Hometown": "Beijing, China"
+  {
+    "basics": {
+      "name": "Chunlei Li",
+      "email": "li_cl@foxmail.com",
+      "phone": "+86-17600633417",
+      "website": "https://chunleili.github.io/personal-page/",
+      "summary": "I'm a PhD candidate at the VR Lab of Beihang University from 2021, supervised by Prof. Qinping Zhao. My research focuses on computer graphics simulation. Currently I am a visiting student at University College London, supervised by Prof. He Wang. I am about to graduate in 2026. I am now working on the project of accelearting the solution of PDE with neural operator.",
+      "location": {
+        "Current Location": "London, UK",
+        "Hometown": "Beijing, China"
+      },
+      "profiles": [
+        {
+          "network": "ORCID",
+          "url": "https://orcid.org/0000-0002-9822-9465"
+        },
+        {
+          "network": "GitHub",
+          "url": "https://github.com/chunleili"
+        },
+        {"network":"personal website",
+        "url":"https://chunleili.github.io/personal-page/"}
+      ]
     },
-    "profiles": [
+    "projects": [
       {
-        "network": "ORCID",
-        "url": "https://orcid.org/0000-0002-9822-9465"
+        "name": "Zeno Tech",
+        "position": "R&D of PBD method (Intern)",
+        "startDate": "2022-06",
+        "endDate": "2022-12",
+        "summary": "R&D of the PBD method in the DCC software using C++."
       },
       {
-        "network": "GitHub",
-        "url": "https://github.com/chunleili"
+        "name": "Taichi Graphics",
+        "position": "R&D of PBD method (Intern)",
+        "startDate": "2023-02",
+        "endDate": "2023-09",
+        "summary": "Supervised by Dr. Tiantian Liu, development of PBD solver."
       },
-      {"network":"personal website",
-      "url":"https://chunleili.github.io/personal-page/"}
-    ]
-  },
-  "projects": [
+      {
+        "name": "Alibaba",
+        "position": "R&D (Project)",
+        "startDate": "2025-05",
+        "endDate": "2026-05",
+        "summary": "R&D of GPU-based self-developed muscle simulation node in Houdini."
+      }
+    ],
+    "education": [
+      {
+        "institution": "University College London",
+        "area": "Visiting PhD in Computer Science",
+        "studyType": "Visiting PhD",
+        "startDate": "2025-09",
+        "endDate": "2026-08",
+        "advisor": "He Wang",
+        "focus": "Neural Operator"
+      },
+      {
+        "institution": "Beihang University (BUAA)",
+        "area": "PhD Candidate in Computer Science",
+        "studyType": "PhD",
+        "startDate": "2021-09",
+        "endDate": "2026-12",
+        "focus": "Computer Graphics Simulation",
+        "advisor": "Qinping Zhao",
+        "lab": "VR Lab"
+      },
+      {
+        "institution": "Beihang University (BUAA)",
+        "area": "MSc in Power Engineering and Engineering Thermophysics",
+        "studyType": "MSc",
+        "startDate": "2018-09",
+        "endDate": "2021-06",
+        "gpa": "85.61/100",
+        "advisor": "Qitai Eri",
+        "focus": "Biomass Gasification & CFD"
+      },
+      {
+        "institution": "University of Michigan, Dearborn",
+        "area": "Energy and Power Engineering",
+        "studyType": "Exchange Student",
+        "startDate": "2016-09",
+        "endDate": "2017-05"
+      },
+      {
+        "institution": "North China Electric Power University (Beijing)",
+        "area": "BSc in Energy and Power Engineering",
+        "studyType": "BSc",
+        "startDate": "2014-09",
+        "endDate": "2018-07",
+        "gpa": "3.63/4.0",
+        "ranking": "24/243"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Programming Languages",
+        "keywords": ["C", "C++", "CUDA", "MATLAB", "Fortran", "Python", "Taichi"]
+      },
+      {
+        "name": "Software",
+        "keywords": ["Houdini"]
+      },
+      {
+        "name": "English Proficiency",
+        "keywords": ["CET Band 6: 578", "CET Band 4: 560", "TOEFL: 97", "GRE: 323+3.5"]
+      }
+    ],
+    "interests": ["Simulation in Computer Graphics", "Physics-Based Animation"],
+    "publications": [
+      {
+        "name": "MGPBD: A Multigrid Accelerated Global XPBD Solver",
+        "publisher": "SIGGRAPH",
+        "releaseDate": "2025-08-14",
+        "website": "https://doi.org/10.1145/3721238.3730720",
+        "note": "During PhD.",
+        "authors": ["Chunlei Li", "Peng Yu", "Tiantian Liu", "Siyuan Yu", "Yuting Xiao", "Shuai Li", "Aimin Hao", "Yang Gao", "Qinping Zhao"]
+      },
+      {
+        "name": "A Unified Particle-Based Solver for non-Newtonian Behaviors Simulation",
+        "publisher": "TVCG",
+        "releaseDate": "2023-12-01",
+        "website": "https://doi.org/10.1109/TVCG.2023.3341453",
+        "note": "During PhD.",
+        "authors": ["Chunlei Li", "Yang Gao", "Jiayi He", "Tianwei Cheng", "Shuai Li", "Aimin Hao"]
+      },
+      {
+        "name": "Comparison between Two Eulerian-Lagrangian Methods: CFD-DEM & MPPIC on the biomass gasification in a fluidized bed",
+        "publisher": "Biomass Conversion and Biorefinery",
+        "releaseDate": "2021-01-01",
+        "website": "https://doi.org/10.1007/s13399-021-01384-2",
+        "note": "During Master.",
+        "authors": ["Chunlei Li", "Qitai Eri"]
+      },
+      {
+        "name": "Comparative Study of Three Modified sCO₂ Brayton Recompression Cycles Based on Energy and Exergy Analysis with GA Optimization",
+        "publisher": "International Journal of Exergy",
+        "releaseDate": "2020-01-01",
+        "website": "https://doi.org/10.1504/IJEX.2021.115652",
+        "note": "During Master.",
+        "authors": ["Chunlei Li", "Qitai Eri"]
+      },
+      {
+        "name": "Multi-objective Optimization of sCO₂, sCO₂/tCO₂ Cycles Based on Energy-Exergy-Economy Balanced Analysis",
+        "publisher": "International Journal of Exergy",
+        "releaseDate": "2020-01-01",
+        "website": "https://doi.org/10.1504/IJEX.2022.122308",
+        "note": "During Master.",
+        "authors": ["Chunlei Li", "Qitai Eri"]
+      }
+    ],
+    "awards": [
     {
-      "name": "Zeno Tech",
-      "position": "R&D of PBD method (Intern)",
-      "startDate": "2022-06",
-      "endDate": "2022-12",
-      "summary": "R&D of the PBD method in the DCC software using C++."
+      "title": "Top 10 Outstanding Graduate Students of Beihang University",
+      "date": "2021-06",
+      "note": "nominate",
+      "awarder": "Beihang University"
     },
     {
-      "name": "Taichi Graphics",
-      "position": "R&D of PBD method (Intern)",
-      "startDate": "2023-02",
-      "endDate": "2023-09",
-      "summary": "Supervised by Dr. Tiantian Liu, development of PBD solver."
+      "title": "Outstanding Graduate of Beihang University",
+      "date": "2021-06",
+      "awarder": "Beihang University"
     },
     {
-      "name": "Alibaba",
-      "position": "R&D (Project)",
-      "startDate": "2025-05",
-      "endDate": "2026-05",
-      "summary": "R&D of GPU-based self-developed muscle simulation node in Houdini."
+      "title": "Outstanding Graduate of NCEPU (Beijing)",
+      "date": "2018-06",
+      "awarder": "NCEPU (Beijing)"
     }
-  ],
-  "education": [
-    {
-      "institution": "University College London",
-      "area": "Visiting PhD in Computer Science",
-      "studyType": "Visiting PhD",
-      "startDate": "2025-09",
-      "endDate": "2026-08",
-      "advisor": "He Wang",
-      "lab": null,
-      "focus": "Neural Operator"
-    },
-    {
-      "institution": "Beihang University (BUAA)",
-      "area": "PhD Candidate in Computer Science",
-      "studyType": "PhD",
-      "startDate": "2021-09",
-      "endDate": "2026-12(Expected)",
-      "focus": "Computer Graphics Simulation",
-      "advisor": "Qinping Zhao",
-      "lab": "VR Lab"
-    },
-    {
-      "institution": "Beihang University (BUAA)",
-      "area": "MSc in Power Engineering and Engineering Thermophysics",
-      "studyType": "MSc",
-      "startDate": "2018-09",
-      "endDate": "2021-06",
-      "gpa": "85.61/100",
-      "courses": [],
-      "advisor": "Qitai Eri",
-      "focus": "Biomass Gasification & CFD"
-    },
-    {
-      "institution": "University of Michigan, Dearborn",
-      "area": "Energy and Power Engineering",
-      "studyType": "Exchange Student",
-      "startDate": "2016-09",
-      "endDate": "2017-05",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "North China Electric Power University (Beijing)",
-      "area": "BSc in Energy and Power Engineering",
-      "studyType": "BSc",
-      "startDate": "2014-09",
-      "endDate": "2018-07",
-      "gpa": "3.63/4.0",
-      "ranking": "24/243",
-      "courses": []
-    }
-  ],
-  "skills": [
-    {
-      "name": "Programming Languages",
-      "keywords": ["C", "C++", "CUDA", "MATLAB", "Fortran", "Python", "Taichi"]
-    },
-    {
-      "name": "Software",
-      "keywords": ["Houdini"]
-    },
-    {
-      "name": "English Proficiency",
-      "keywords": ["CET Band 6: 578", "CET Band 4: 560", "TOEFL: 97", "GRE: 323+3.5"]
-    }
-  ],
-  "interests": ["Simulation in Computer Graphics", "Physics-Based Animation"],
-  "publications": [
-    {
-      "name": "MGPBD: A Multigrid Accelerated Global XPBD Solver",
-      "publisher": "SIGGRAPH",
-      "releaseDate": "2025-08-14",
-      "website": "https://doi.org/10.1145/3721238.3730720",
-      "note": "First author. During PhD."
-    },
-    {
-      "name": "A Unified Particle-Based Solver for non-Newtonian Behaviors Simulation",
-      "publisher": "TVCG",
-      "releaseDate": "2023-12-01",
-      "website": "https://doi.org/10.1109/TVCG.2023.3341453",
-      "note": "First author. During PhD."
-    },
-    {
-      "name": "Comparison between Two Eulerian-Lagrangian Methods: CFD-DEM & MPPIC on the biomass gasification in a fluidized bed",
-      "publisher": "Biomass Conversion and Biorefinery",
-      "releaseDate": "2021-01-01",
-      "website": "https://doi.org/10.1007/s13399-021-01384-2",
-      "note": "First author. During Master."
-    },
-    {
-      "name": "Comparative Study of Three Modified sCO₂ Brayton Recompression Cycles Based on Energy and Exergy Analysis with GA Optimization",
-      "publisher": "International Journal of Exergy",
-      "releaseDate": "2020-01-01",
-      "website": "10.1504/IJEX.2021.115652",
-      "note": "First author. During Master."
-    },
-    {
-      "name": "Multi-objective Optimization of sCO₂, sCO₂/tCO₂ Cycles Based on Energy-Exergy-Economy Balanced Analysis",
-      "publisher": "International Journal of Exergy",
-      "releaseDate": "2020-01-01",
-      "website": "https://doi.org/10.1504/IJEX.2022.122308",
-      "note": "First author. During Master."
-    }
-  ],
-  "awards": [
-  {
-    "title": "Top 10 Outstanding Graduate Students of Beihang University",
-    "date": "2021-06",
-    "note": "nominate",
-    "awarder": "Beihang University"
-  },
-  {
-    "title": "Outstanding Graduate of Beihang University",
-    "date": "2021-06",
-    "awarder": "Beihang University"
-  },
-  {
-    "title": "Outstanding Graduate of NCEPU (Beijing)",
-    "date": "2018-06",
-    "awarder": "NCEPU (Beijing)"
+  ]
   }
-]
-}

@@ -3,8 +3,8 @@ name: Build CV PDF
 on:
   push:
     paths:
-      - "_data/cv.json"
-      - ".github/workflows/cv.yml"
+      - "_data/cv.yaml" 
+      - ".github/workflows/cv-pdf.yml"
   workflow_dispatch:
 
 jobs:
@@ -13,16 +13,20 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          node-version: 20
+          python-version: '3.x' # 使用最新的 Python 3 版本
 
-      - name: Install resume-cli
-        run: npm install -g resume-cli
+      - name: Install rendercv
+        run: pip install rendercv
 
       - name: Generate PDF
-        run: resume export files/cv.pdf --theme paper
+        run: rendercv render _data/cv.yaml
+
+      - name: Move PDF to files folder
+        run: mv rendercv_output/Chunlei_Li_CV.pdf files/cv.pdf
+        run: mv rendercv_output/Chunlei_Li_CV.md files/cv.md
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4

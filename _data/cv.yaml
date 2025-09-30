@@ -1,0 +1,144 @@
+cv:
+  name: "Chunlei Li"
+  location: "undefined, undefined"
+  email: "li_cl@foxmail.com"
+  phone: "+86-17600633417"
+  website: "https://chunleili.github.io/personal-page/"
+  sections:
+    summary:
+      - "I'm a PhD candidate at the VR Lab of Beihang University from 2021, supervised by Prof. Qinping Zhao. My research focuses on computer graphics simulation. Currently I am a visiting student at University College London, supervised by Prof. He Wang. I am about to graduate in 2026. I am now working on the project of accelearting the solution of PDE with neural operator."
+    education:
+      - institution: "University College London"
+        area: "Computer Science"
+        degree: "Visiting PhD"
+        start_date: "2025-09"
+        end_date: "2026-09"
+        highlights: []
+      - institution: "Beihang University (BUAA)"
+        area: "Computer Science"
+        degree: "PhD"
+        start_date: "2021-09"
+        end_date: "2026-12"
+        highlights: []
+      - institution: "Beihang University (BUAA)"
+        area: "Power Engineering and Engineering Thermophysics"
+        degree: "MSc"
+        start_date: "2018-09"
+        end_date: "2021-06"
+        highlights: []
+      - institution: "University of Michigan, Dearborn"
+        area: "Energy and Power Engineering"
+        degree: "Exchange Student"
+        start_date: "2016-09"
+        end_date: "2017-05"
+        highlights: []
+      - institution: "North China Electric Power University (Beijing)"
+        area: "Energy and Power Engineering"
+        degree: "BSc"
+        start_date: "2014-09"
+        end_date: "2018-07"
+        highlights: []
+
+
+    publications:
+      - title: "MGPBD: A Multigrid Accelerated Global XPBD Solver"
+        authors:
+          - "Chunlei Li"
+          - "Peng Yu"
+          - "Tiantian Liu"
+          - "Siyuan Yu"
+          - "Yuting Xiao"
+          - "Shuai Li"
+          - "Aimin Hao"
+          - "Yang Gao"
+          - "Qinping Zhao"
+        date: "2025-08-14"
+        journal: "SIGGRAPH"
+        doi: "10.1145/3721238.3730720"
+
+
+      - title: "A Unified Particle-Based Solver for non-Newtonian Behaviors Simulation"
+        authors:
+          - "Chunlei Li"
+          - "Yang Gao"
+          - "Jiayi He"
+          - "Tianwei Cheng"
+          - "Shuai Li"
+          - "Aimin Hao"
+        date: "2023-12-01"
+        journal: "IEEE Transactions on Visualization and Computer Graphics"
+        doi: "10.1109/TVCG.2023.3341453"
+        # "website": "https://doi.org/10.1145/3721238.3730720",
+        # "website": "https://doi.org/10.1109/TVCG.2023.3341453",
+        # "website": "https://doi.org/10.1007/s13399-021-01384-2",
+        # "website": "https://doi.org/10.1504/IJEX.2021.115652",
+        # "website": "https://doi.org/10.1504/IJEX.2022.122308",
+
+
+      - title: "Comparison between Two Eulerian-Lagrangian Methods: CFD-DEM & MPPIC on the biomass gasification in a fluidized bed"
+        authors:
+          - "Chunlei Li"
+          - "Qitai Eri"
+        date: "2021-02-25"
+        journal: "Biomass Conversion and Biorefinery"
+        doi: "10.1007/s13399-021-01384-2"
+
+      - title: "Comparative Study of Three Modified sCO2 Brayton Recompression Cycles Based on Energy and Exergy Analysis with GA Optimization"
+        authors:
+          - "Chunlei Li"
+          - "Qitai Eri"
+        date: "2021-01-15"
+        journal: "International Journal of Exergy"
+        doi: "10.1504/IJEX.2021.115652"
+        
+      - title: "Multi-objective Optimization of sCO₂, sCO₂/tCO₂ Cycles Based on Energy-Exergy-Economy Balanced Analysis"
+        authors:
+          - "Chunlei Li"
+          - "Qitai Eri"
+        date: "2022-04-19"
+        journal: "International Journal of Exergy"
+        doi: "10.1504/IJEX.2022.122308"
+
+    Experience:
+      - company: Zeno Tech
+        position: R&D
+        location: Online
+        start_date: 2022-06
+        end_date: 2022-12
+        highlights:
+          - Intern
+          - R&D of the PBD method in the DCC software using C++.
+      - company: Taichi Graphics
+        position: R&D 
+        location: Beijing
+        start_date: 2023-02
+        end_date: 2023-09
+        highlights:
+          - Intern
+          - R&D of the PBD method. Supervised by Dr. Tiantian Liu, development of PBD solver.
+      - company: Alibaba
+        position: R&D
+        location: Beijing
+        start_date: 2025-05
+        end_date: 2026-05
+        highlights:
+          - R&D of the PBD method. Design the algorithm of multigrid accelerated GPU-based muscle node in Houdini
+          - horizontal project
+
+    awards:
+      - label: "Top 10 Outstanding Graduate Students of Beihang University"
+        details: "Beihang University"
+        date: 2021-06
+      - label: "Outstanding Graduate of Beihang University"
+        details: "Beihang University"
+        date: 2021-06
+      - label: "Outstanding Graduate of NCEPU (Beijing)"
+        details: "NCEPU (Beijing)"
+        date: 2018-06
+    skills:
+      - label: "Languages"
+        details: "CET Band 6: 578, CET Band 4: 560, TOEFL: 97, GRE: 323+3.5"
+      - label: "DCC Software"
+        details: "Houdini"
+design:
+  theme: engineeringresumes
