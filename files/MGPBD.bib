@@ -1,0 +1,18 @@
+@inproceedings{Li2025-MGPBD,
+author = {Li, Chunlei and Yu, Peng and Liu, Tiantian and Yu, Siyuan and Xiao, Yuting and Li, Shuai and Hao, Aimin and Gao, Yang and Zhao, Qinping},
+title = {MGPBD: A Multigrid Accelerated Global XPBD Solver},
+year = {2025},
+isbn = {9798400715402},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3721238.3730720},
+doi = {10.1145/3721238.3730720},
+abstract = {We introduce a novel Unsmoothed Aggregation (UA) Algebraic Multigrid (AMG) method combined with Preconditioned Conjugate Gradient (PCG) to overcome the limitations of Extended Position-Based Dynamics (XPBD) in high-resolution and high-stiffness simulations. While XPBD excels in simulating deformable objects due to its speed and simplicity, its nonlinear Gauss-Seidel (GS) solver often struggles with low-frequency errors, leading to instability and stalling issues, especially in high-resolution, high-stiffness simulations. Our multigrid approach addresses these issues efficiently by leveraging AMG. To reduce the computational overhead of traditional AMG, where prolongator construction can consume up to two-thirds of the runtime, we propose a lazy setup strategy that reuses prolongators across iterations based on matrix structure and physical significance. Furthermore, we introduce a simplified method for constructing near-kernel components by applying a few sweeps of iterative methods to the homogeneous equation, achieving convergence rates comparable to adaptive smoothed aggregation (adaptive-SA) at a lower computational cost. Experimental results demonstrate that our method significantly improves convergence rates and numerical stability, enabling efficient and stable high-resolution simulations of deformable objects.},
+booktitle = {Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Conference Papers},
+articleno = {111},
+numpages = {11},
+keywords = {Deformable Object, Algebraic Multigrid, Position Based Dynamics},
+location = {
+},
+series = {SIGGRAPH Conference Papers '25}
+}
