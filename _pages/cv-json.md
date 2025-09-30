@@ -1,33 +1,17 @@
 ---
 layout: archive
 title: "CV"
-permalink: /cv-json/
+permalink: /cv/
 author_profile: false
 redirect_from:
   - /resume-json
 ---
- {% include base_path %}
-<!-- Uncomment this if use the cv-template.html -->
-<!-- {% include cv-template.html %}  -->
 
+<!-- {% include base_path %}
 
-<div class="cv-container">
-  <h2>Curriculum Vitae</h2>
+{% include cv-template.html %} -->
 
-  <!-- PDF Embedded -->
-  <div class="cv-embed" style="margin: 20px 0;">
-    <iframe src="{{ base_path }}/files/cv.pdf" 
-            width="100%" 
-            height="800px" 
-            style="border:1px solid #ccc;">
-      This browser does not support PDFs. Please download the PDF to view it: 
-      <a href="{{ base_path }}/files/cv.pdf">Download CV</a>
-    </iframe>
-  </div>
-
-  <!-- Download Links -->
-  <div class="cv-download-links">
-    <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">View PDF CV</a>
-    <a href="{{ base_path }}/files/cv.md" class="btn btn--inverse">View Markdown CV</a>
-  </div>
+<div class="cv-download-links">
+  <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download CV as PDF</a>
+  <a href="{{ base_path }}/files/cv.md" class="btn btn--inverse">View Markdown CV</a>
 </div>
