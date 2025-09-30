@@ -81,14 +81,14 @@
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ education.institution }}</div>
-          {% if education.gpa %}
+          <!-- {% if education.gpa %}
           <div class="cv-item-detail">GPA: {{ education.gpa }}</div>
-          {% endif %}
-          {% if education.courses.size > 0 %}
+          {% endif %} -->
+          <!-- {% if education.courses.size > 0 %}
           <div class="cv-item-detail">
             <strong>Courses:</strong> {{ education.courses | join: ", " }}
           </div>
-          {% endif %}
+          {% endif %} -->
         </div>
       </li>
       {% endfor %}
@@ -147,10 +147,10 @@
 </div>
 {% endif %}
 
-  
+
   {% if cv.skills.size > 0 %}
   <!-- Skills -->
-  <div class="cv-section">
+  <!-- <div class="cv-section">
     <h2>Skills</h2>
     <div class="cv-skills">
       {% for skill in cv.skills %}
@@ -164,9 +164,9 @@
       </div>
       {% endfor %}
     </div>
-  </div>
+  </div> -->
   {% endif %}
-  
+
   {% if cv.publications.size > 0 %}
   <!-- Publications -->
   <div class="cv-section">
@@ -220,7 +220,7 @@
   {% endif %}
   
   {% if cv.teaching.size > 0 %}
-  <!-- Teaching -->
+  Teaching
   <div class="cv-section">
     <h2>Teaching</h2>
     <ul class="cv-list">
