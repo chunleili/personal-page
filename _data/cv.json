@@ -50,8 +50,9 @@
       "institution": "University College London",
       "studyType": "Visiting PhD",
       "startDate": "2025-09",
-      "endDate": "",
-      "advisor": "Prof. He Wang"
+      "endDate": "2026-08",
+      "advisor": "He Wang",
+      "lab": null
     },
     {
       "institution": "Beihang University (BUAA)",
