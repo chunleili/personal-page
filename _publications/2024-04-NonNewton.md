@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: https://github.com/chunleili/nonNewtonCode
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2024-04
+date: 2024-04-01
 venue: 'TVCG'
 slidesurl: 'https://github.com/chunleili/nonNewtonPaper'
 paperurl: 'https://github.com/chunleili/nonNewtonCode'
