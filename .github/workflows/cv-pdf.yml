@@ -3,43 +3,29 @@ name: Build CV PDF
 on:
   push:
     paths:
-      - "_data/cv-json.json"
-      - "_includes/cv-template.html"
-      - "cv-json.md"
+      - "_data/cv.json"
+      - ".github/workflows/cv.yml"
   workflow_dispatch:
 
 jobs:
   build-pdf:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1WW
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          ruby-version: 3.2
+          node-version: 20
 
-      - name: Install Jekyll
-        run: |
-          gem install jekyll bundler
+      - name: Install resume-cli
+        run: npm install -g resume-cli
 
-      - name: Install wkhtmltopdf
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y wkhtmltopdf
+      - name: Generate PDF
+        run: resume export files/cv.pdf --theme flat
 
-      - name: Build HTML CV
-        run: |
-          jekyll build -s . -d ./_site
-
-      - name: Convert HTML to PDF
-        run: |
-          wkhtmltopdf ./_site/cv-json/index.html ./files/cv.pdf
-
-      - name: Upload PDF as artifact
+      - name: Upload PDF artifact
         uses: actions/upload-artifact@v3
         with:
           name: CV-PDF
-          path: ./files/cv.pdf
+          path: files/cv.pdf

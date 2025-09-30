@@ -177,11 +177,9 @@
           {% if publication.summary %}
           <div class="cv-item-detail">{{ publication.summary }}</div>
           {% endif %}
-          {% if publication.website %}
           <div class="cv-item-detail">
-            <a href="{{ base_path }}/publications/\" target=\"_blank\">View Publication</a>
+            <a href="{{ base_path }}/publications/" target="_blank">View Publication</a>
           </div>
-          {% endif %}
         </div>
       </li>
       {% endfor %}
