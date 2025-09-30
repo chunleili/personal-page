@@ -26,6 +26,8 @@ jobs:
 
       - name: Move PDF to files folder
         run: mv rendercv_output/Chunlei_Li_CV.pdf files/cv.pdf
+
+      - name: Move Markdown to files folder
         run: mv rendercv_output/Chunlei_Li_CV.md files/cv.md
 
       - name: Upload PDF artifact
