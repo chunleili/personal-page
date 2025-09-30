@@ -2,7 +2,7 @@
 
 - Phone: +86 176 0063 3417
 - Email: [li_cl@foxmail.com](mailto:li_cl@foxmail.com)
-- Location: undefined, undefined
+- Location: London, UK
 - Website: [chunleili.github.iopersonal-page](https://chunleili.github.io/personal-page/)
 
 
