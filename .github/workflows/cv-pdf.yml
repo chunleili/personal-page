@@ -25,7 +25,7 @@ jobs:
         run: resume export files/cv.pdf --theme flat
 
       - name: Upload PDF artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: CV-PDF
           path: files/cv.pdf
