@@ -45,34 +45,41 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        {{ content }}
+      {{ content }}
 
-        {% assign buttons = "" %}
-        {% if page.code %}
-          {% assign buttons = buttons | append: '<a href="' | append: page.code | append: '" target="_blank" class="btn">Code</a> ' %}
-        {% endif %}
-        {% if page.paperurl %}
-          {% assign buttons = buttons | append: '<a href="' | append: page.paperurl | append: '" target="_blank" class="btn">Paper</a> ' %}
-        {% endif %}
-        {% if page.slidesurl %}
-          {% assign buttons = buttons | append: '<a href="' | append: page.slidesurl | append: '" target="_blank" class="btn">Slides</a> ' %}
-        {% endif %}
-        {% if page.bibtexurl %}
-          {% assign buttons = buttons | append: '<a href="' | append: page.bibtexurl | append: '" target="_blank" class="btn">Bibtex</a>' %}
-        {% endif %}
+      {% assign buttons = "" %}
 
-        {% if page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
-        {% endif %}
+      {% if page.code %}
+        {% assign buttons = buttons | append: '<a href="' | append: page.code | append: '" target="_blank" class="btn">Code</a> ' %}
+      {% endif %}
+      {% if page.paperurl %}
+        {% assign buttons = buttons | append: '<a href="' | append: page.paperurl | append: '" target="_blank" class="btn">Paper</a> ' %}
+      {% endif %}
+      {% if page.slidesurl %}
+        {% assign buttons = buttons | append: '<a href="' | append: page.slidesurl | append: '" target="_blank" class="btn">Slides</a> ' %}
+      {% endif %}
+      {% if page.bibtexurl %}
+        {% assign buttons = buttons | append: '<a href="' | append: page.bibtexurl | append: '" target="_blank" class="btn">Bibtex</a> ' %}
+      {% endif %}
+      {% if page.videourl %}
+        {% assign buttons = buttons | append: '<a href="' | append: page.videourl | append: '" target="_blank" class="btn">Video</a> ' %}
+      {% endif %}
+      {% if page.projecturl %}
+        {% assign buttons = buttons | append: '<a href="' | append: page.projecturl | append: '" target="_blank" class="btn">Project Page</a> ' %}
+      {% endif %}
 
-        {% if buttons != "" %}
-          <p style="margin-top: 0.5em;">{{ buttons | raw }}</p>
-        {% endif %}
+      {% if page.citation %}
+        <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+      {% endif %}
 
-        {% if page.link %}
-          <div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
-        {% endif %}
-      </section>
+      {% if buttons != "" %}
+        <p style="margin-top: 0.5em;">{{ buttons | raw }}</p>
+      {% endif %}
+
+      {% if page.link %}
+        <div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>
+      {% endif %}
+    </section>
 
 
       <footer class="page__meta">
