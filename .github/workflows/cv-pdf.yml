@@ -39,12 +39,11 @@ jobs:
       - name: check
         run: |
           ls files
-          ls _data/rendercv_output
 
       # ---------- 新增：提交 PDF 到 pdf 分支 ----------
       - name: Commit
         run: |
-          git config --global user.name 'cl li (github-actions[bot])'
+          git config --global user.name 'github-actions[bot]'
           git config --global user.email 'li_cl@foxmail.com'
           git commit -am "Automate CV PDF update"
           git push origin pdf
