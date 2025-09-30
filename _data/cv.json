@@ -149,7 +149,7 @@
     }
   ],
   "awards": [
-    {"title": "Top 10 Outstanding Graduate Students of Beihang University","year": "2021-06","note": "nominate","awarder": "Beihang University"},
-    {"title": "Outstanding Graduate of Beihang University","year": "2021-06","note": "","awarder": "Beihang University"},
-    {"title": "Outstanding Graduate of NCEPU (Beijing)","year": "2018-06","note": "","awarder": "NCEPU (Beijing)"}]
+    {"title": "Top 10 Outstanding Graduate Students of Beihang University","date": "2021-06","note": "nominate","awarder": "Beihang University"},
+    {"title": "Outstanding Graduate of Beihang University","date": "2021-06","note": "","awarder": "Beihang University"},
+    {"title": "Outstanding Graduate of NCEPU (Beijing)","date": "2018-06","note": "","awarder": "NCEPU (Beijing)"}]
 }
