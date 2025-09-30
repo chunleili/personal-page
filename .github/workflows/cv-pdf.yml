@@ -19,7 +19,7 @@ jobs:
           python-version: '3.x' # 使用最新的 Python 3 版本
 
       - name: Install rendercv
-        run: pip install rendercv
+        run: pip install rendercv[full]
 
       - name: Generate PDF
         run: rendercv render _data/cv.yaml
