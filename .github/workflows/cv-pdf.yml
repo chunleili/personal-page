@@ -36,25 +36,15 @@ jobs:
           name: CV-PDF
           path: files/cv.pdf
 
+      - name: check
+        run: |
+          ls files
+          ls _data/rendercv_output
+
       # ---------- 新增：提交 PDF 到 pdf 分支 ----------
-      - name: Configure Git
+      - name: Commit
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Checkout pdf branch
-        run: |
-          git fetch origin pdf || true
-          git checkout pdf || git checkout --orphan pdf
-          git reset --hard
-
-      - name: Copy PDF to branch
-        run: |
-          cp files/cv.pdf ./cv.pdf
-          cp files/cv.md ./cv.md
-
-      - name: Commit and Push PDF
-        run: |
-          git add cv.pdf cv.md
-          git diff --cached --quiet || git commit -m "Update generated CV"
-          git push origin pdf --force
+          git config --global user.name 'cl li (github-actions[bot])'
+          git config --global user.email 'li_cl@foxmail.com'
+          git commit -am "Automate CV PDF update"
+          git push origin pdf
