@@ -2,7 +2,7 @@
 title: "A Unified Particle-Based Solver for non-Newtonian Behaviors Simulation"
 collection: publications
 category: manuscripts
-permalink: https://github.com/chunleili/nonNewtonCode
+permalink: /publication/2024-04-01-NonNewton-number-1
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024-04-01
 venue: 'TVCG'
