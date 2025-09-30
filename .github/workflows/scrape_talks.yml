@@ -10,6 +10,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Grant write permissions to the GITHUB_TOKEN
 
     steps:
     - uses: actions/checkout@v2
