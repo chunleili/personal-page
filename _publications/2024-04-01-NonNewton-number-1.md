@@ -10,6 +10,7 @@ slidesurl: 'https://github.com/chunleili/nonNewtonPaper/blob/main/video.pptx'
 paperurl: 'https://arxiv.org/abs/2312.04814'
 bibtexurl: 'http://chunleili.github.io/personal-page/files/NonNewton.bib'
 code: 'https://github.com/chunleili/nonNewtonCode'
+projecturl: 'https://chunleili.github.io/project-page-nonNewton'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 ![NonNewton](../images/nonNewton_preview.png)
