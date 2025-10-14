@@ -9,7 +9,7 @@ paperurl: 'https://arxiv.org/abs/2505.13390'
 slidesurl: 'https://docs.google.com/presentation/d/1NcZVITDUfJIG9hKNJkx2TqsEaNnO3dNk/edit?usp=share_link&ouid=111038135074814190899&rtpof=true&sd=true'
 code: 'https://github.com/chunleili/mgpbd'
 videourl: 'https://youtu.be/heScPwJo4AU'
-projecturl: 'https://github.com/chunleili/mgpbd'
+projecturl: 'https://github.com/chunleili/project-page-mgpbd'
 bibtexurl: 'http://chunleili.github.io/personal-page/files/MGPBD.bib'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
