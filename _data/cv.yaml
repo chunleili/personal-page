@@ -56,6 +56,19 @@ cv:
         journal: "SIGGRAPH"
         doi: "10.1145/3721238.3730720"
 
+      - title: "Parallel Constraint Graph Partitioning and Coloring for Realtime Soft-Body Cutting"
+        authors:
+            - "Peng Yu"
+            - "Ruiqi Wang"
+            - "Chunlei Li"
+            - "Yuxuan Li"
+            - "Xiao Zhai"
+            - "Yuanbo He"
+            - "Hongyu Wu"
+            - "Aimin Hao"
+        date: "2025-04-19"
+        journal: "Pacific Graphics"
+        doi: "10.2312/pg.20251267"
 
       - title: "A Unified Particle-Based Solver for non-Newtonian Behaviors Simulation"
         authors:
@@ -68,12 +81,6 @@ cv:
         date: "2023-12-01"
         journal: "IEEE Transactions on Visualization and Computer Graphics"
         doi: "10.1109/TVCG.2023.3341453"
-        # "website": "https://doi.org/10.1145/3721238.3730720",
-        # "website": "https://doi.org/10.1109/TVCG.2023.3341453",
-        # "website": "https://doi.org/10.1007/s13399-021-01384-2",
-        # "website": "https://doi.org/10.1504/IJEX.2021.115652",
-        # "website": "https://doi.org/10.1504/IJEX.2022.122308",
-
 
       - title: "Comparison between Two Eulerian-Lagrangian Methods: CFD-DEM & MPPIC on the biomass gasification in a fluidized bed"
         authors:
@@ -99,6 +106,8 @@ cv:
         journal: "International Journal of Exergy"
         doi: "10.1504/IJEX.2022.122308"
 
+
+
     Experience:
       - company: Zeno Tech
         position: R&D
@@ -120,7 +129,7 @@ cv:
         position: R&D
         location: Beijing
         start_date: 2025-05
-        end_date: 2026-05
+        end_date: 2025-11
         highlights:
           - R&D of the PBD method. Design the algorithm of multigrid accelerated GPU-based muscle node in Houdini
           - horizontal project
