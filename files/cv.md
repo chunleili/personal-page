@@ -39,6 +39,11 @@ I'm a PhD candidate at the VR Lab of Beihang University from 2021, supervised by
 - Chunlei Li, Peng Yu, Tiantian Liu, Siyuan Yu, Yuting Xiao, Shuai Li, Aimin Hao, Yang Gao, Qinping Zhao
 - SIGGRAPH
 
+## Parallel Constraint Graph Partitioning and Coloring for Realtime Soft-Body Cutting ([10.2312/pg.20251267](https://doi.org/10.2312/pg.20251267))
+- Apr 2025
+- Peng Yu, Ruiqi Wang, Chunlei Li, Yuxuan Li, Xiao Zhai, Yuanbo He, Hongyu Wu, Aimin Hao
+- Pacific Graphics
+
 ## A Unified Particle-Based Solver for non-Newtonian Behaviors Simulation ([10.1109/TVCG.2023.3341453](https://doi.org/10.1109/TVCG.2023.3341453))
 - Dec 2023
 - Chunlei Li, Yang Gao, Jiayi He, Tianwei Cheng, Shuai Li, Aimin Hao
@@ -77,7 +82,7 @@ I'm a PhD candidate at the VR Lab of Beihang University from 2021, supervised by
 
 ## Alibaba, R&D
 
-- May 2025 – May 2026
+- May 2025 – Nov 2025
 - Beijing
 - R&D of the PBD method. Design the algorithm of multigrid accelerated GPU-based muscle node in Houdini
 - horizontal project
