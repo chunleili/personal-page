@@ -220,13 +220,6 @@
     }
   }
 
-  // Limit publication cover images in archive lists
-  .archive__item-excerpt img,
-  .archive__item p img {
-    max-width: 400px;
-    height: auto;
-  }
-
   &--center {
     @include full();
     font-size: 1.25rem;
