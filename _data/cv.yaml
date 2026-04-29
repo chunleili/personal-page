@@ -1,12 +1,12 @@
 cv:
   name: "Chunlei Li"
-  location: "London, UK"
+  location: "London / Beijing"
   email: "li_cl@foxmail.com"
-  phone: "+86-17600633417"
+  phone: "+44 7942 790012"
   website: "https://chunleili.github.io/personal-page/"
   sections:
     summary:
-      - "I'm a PhD candidate at the VR Lab of Beihang University from 2021, supervised by Prof. Qinping Zhao. My research focuses on computer graphics simulation. Currently I am a visiting student at University College London, supervised by Prof. He Wang. I am about to graduate in 2026. I am now working on the project of accelearting the solution of PDE with neural operator."
+      - "I'm a PhD candidate at the VR Lab of Beihang University from 2021, supervised by Prof. Qinping Zhao and Prof. Yang Gao. My research focuses on physical simulation in computer graphics. Currently I am a visiting student at University College London, supervised by Prof. He Wang. I am about to graduate in 2026/2027. Interest: Reinforcement Learning, Numerical Simulation."
     education:
       - institution: "University College London"
         area: "Computer Science"
@@ -115,27 +115,24 @@ cv:
         start_date: 2022-06
         end_date: 2022-12
         highlights:
-          - Intern
-          - R&D of the PBD method in the DCC software using C++.
+          - "Intern: R&D of the PBD method in the DCC software using C++."
       - company: Taichi Graphics
         position: R&D 
         location: Beijing
         start_date: 2023-02
         end_date: 2023-09
         highlights:
-          - Intern
-          - R&D of the PBD method. Supervised by Dr. Tiantian Liu, development of PBD solver.
+          - "Intern: R&D of the PBD method. Supervised by Dr. Tiantian Liu, development of PBD solver."
       - company: Alibaba
         position: R&D
         location: Beijing
         start_date: 2025-05
         end_date: 2025-11
         highlights:
-          - R&D of the PBD method. Design the algorithm of multigrid accelerated GPU-based muscle node in Houdini
-          - horizontal project
+          - R&D of the multigrid accelerated GPU-based muscle simulation in Houdini.
 
     awards:
-      - label: "Top 10 Outstanding Graduate Students of Beihang University"
+      - label: "Top 10 Outstanding Graduate Students Candidate of Beihang University"
         details: "Beihang University"
         date: 2021-06
       - label: "Outstanding Graduate of Beihang University"

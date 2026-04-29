@@ -1,14 +1,14 @@
 # Chunlei Li's CV
 
-- Phone: +86 176 0063 3417
+- Phone: +44 7942 790012
 - Email: [li_cl@foxmail.com](mailto:li_cl@foxmail.com)
-- Location: London, UK
+- Location: London / Beijing
 - Website: [chunleili.github.iopersonal-page](https://chunleili.github.io/personal-page/)
 
 
 # Summary
 
-I'm a PhD candidate at the VR Lab of Beihang University from 2021, supervised by Prof. Qinping Zhao. My research focuses on computer graphics simulation. Currently I am a visiting student at University College London, supervised by Prof. He Wang. I am about to graduate in 2026. I am now working on the project of accelearting the solution of PDE with neural operator.
+I'm a PhD candidate at the VR Lab of Beihang University from 2021, supervised by Prof. Qinping Zhao and Prof. Yang Gao. My research focuses on physical simulation in computer graphics. Currently I am a visiting student at University College London, supervised by Prof. He Wang. I am about to graduate in 2026/2027. Interest: Reinforcement Learning, Numerical Simulation.
 
 # Education
 
@@ -70,26 +70,23 @@ I'm a PhD candidate at the VR Lab of Beihang University from 2021, supervised by
 
 - June 2022 – Dec 2022
 - Online
-- Intern
-- R&D of the PBD method in the DCC software using C++.
+- Intern: R&D of the PBD method in the DCC software using C++.
 
 ## Taichi Graphics, R&D
 
 - Feb 2023 – Sept 2023
 - Beijing
-- Intern
-- R&D of the PBD method. Supervised by Dr. Tiantian Liu, development of PBD solver.
+- Intern: R&D of the PBD method. Supervised by Dr. Tiantian Liu, development of PBD solver.
 
 ## Alibaba, R&D
 
 - May 2025 – Nov 2025
 - Beijing
-- R&D of the PBD method. Design the algorithm of multigrid accelerated GPU-based muscle node in Houdini
-- horizontal project
+- R&D of the multigrid accelerated GPU-based muscle simulation in Houdini.
 
 # Awards
 
-- Top 10 Outstanding Graduate Students of Beihang University: Beihang University
+- Top 10 Outstanding Graduate Students Candidate of Beihang University: Beihang University
 - Outstanding Graduate of Beihang University: Beihang University
 - Outstanding Graduate of NCEPU (Beijing): NCEPU (Beijing)
 # Skills
